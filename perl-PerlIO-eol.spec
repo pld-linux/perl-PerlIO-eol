@@ -5,11 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	PerlIO
 %define		pnam	eol
-Summary:	PerlIO::eol -
-Summary(pl):	PerlIO::eol -
+Summary:	PerlIO::eol - PerlIO layer for normalizing line endings
+Summary(pl):	PerlIO::eol - warstwa PerlIO do normalizacji koñców wierszy
 Name:		perl-PerlIO-eol
 Version:	0.13
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -20,8 +20,14 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+The PerlIO::eol Perl module normalizes any of "CR", "LF", "CRLF" and
+"Native" into the designated line ending. It works for both input and
+output handles.
 
 %description -l pl
+Modu³ Perla PerlIO::eol s³u¿y do normalizacji dowolnych spo¶ród
+nastêpuj±cych zakoñczeñ wierszy: "CR", "LF", "CRLF" do zadanej
+postaci. Dzia³a zarówno dla plików wej¶ciowych, jak i dla wyj¶ciowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
