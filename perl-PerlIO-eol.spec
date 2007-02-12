@@ -6,7 +6,7 @@
 %define		pdir	PerlIO
 %define		pnam	eol
 Summary:	PerlIO::eol - PerlIO layer for normalizing line endings
-Summary(pl):	PerlIO::eol - warstwa PerlIO do normalizacji koÒcÛw wierszy
+Summary(pl.UTF-8):   PerlIO::eol - warstwa PerlIO do normalizacji ko≈Ñc√≥w wierszy
 Name:		perl-PerlIO-eol
 Version:	0.13
 Release:	2
@@ -24,10 +24,10 @@ The PerlIO::eol Perl module normalizes any of "CR", "LF", "CRLF" and
 "Native" into the designated line ending. It works for both input and
 output handles.
 
-%description -l pl
-Modu≥ Perla PerlIO::eol s≥uøy do normalizacji dowolnych spo∂rÛd
-nastÍpuj±cych zakoÒczeÒ wierszy: "CR", "LF", "CRLF" do zadanej
-postaci. Dzia≥a zarÛwno dla plikÛw wej∂ciowych, jak i dla wyj∂ciowych.
+%description -l pl.UTF-8
+Modu≈Ç Perla PerlIO::eol s≈Çu≈ºy do normalizacji dowolnych spo≈õr√≥d
+nastƒôpujƒÖcych zako≈Ñcze≈Ñ wierszy: "CR", "LF", "CRLF" do zadanej
+postaci. Dzia≈Ça zar√≥wno dla plik√≥w wej≈õciowych, jak i dla wyj≈õciowych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
