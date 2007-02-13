@@ -6,7 +6,7 @@
 %define		pdir	PerlIO
 %define		pnam	eol
 Summary:	PerlIO::eol - PerlIO layer for normalizing line endings
-Summary(pl.UTF-8):   PerlIO::eol - warstwa PerlIO do normalizacji końców wierszy
+Summary(pl.UTF-8):	PerlIO::eol - warstwa PerlIO do normalizacji końców wierszy
 Name:		perl-PerlIO-eol
 Version:	0.13
 Release:	2
