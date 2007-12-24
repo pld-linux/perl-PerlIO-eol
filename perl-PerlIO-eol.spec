@@ -8,13 +8,13 @@
 Summary:	PerlIO::eol - PerlIO layer for normalizing line endings
 Summary(pl.UTF-8):	PerlIO::eol - warstwa PerlIO do normalizacji końców wierszy
 Name:		perl-PerlIO-eol
-Version:	0.13
-Release:	2
+Version:	0.14
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7e11fb1cc3b2a65678714877ae361823
+# Source0-md5:	55c5d3fafab00a511ff1c2722060235c
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
