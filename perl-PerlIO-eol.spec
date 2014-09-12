@@ -56,6 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes
 %{perl_vendorarch}/PerlIO/eol.pm
 %dir %{perl_vendorarch}/auto/PerlIO/eol
-%{perl_vendorarch}/auto/PerlIO/eol/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/PerlIO/eol/*.so
 %{_mandir}/man3/*
